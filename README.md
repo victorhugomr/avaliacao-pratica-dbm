@@ -67,3 +67,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Victor Hugo</b></sub></a> <a href="https://github.com/victorhugomr">😎💻</a>
 
 Feito por Victor Hugo 👋🏽
+
+### TODO
+passos para rodar o consumer
+ter o python instalado na máquina
+rodar um pip install -r requirements.txt
+rodar python main.py
