@@ -1,0 +1,72 @@
+# ---- C# / .NET ----
+# Build e binários
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.vspscc
+*.vsp
+*.user
+*.suo
+*.bak
+*.swp
+*.dbmdl
+*.sln.docstates
+
+# Logs e dados temporários
+logs/
+*.log
+*.tlog
+*.cache
+
+# Configurações locais e arquivos gerados
+appsettings.*.json
+.env
+Thumbs.db
+
+# Pacotes e dependências
+packages/
+.vscode/
+node_modules/
+
+# IDEs e ferramentas
+.vs/
+*.suo
+*.ntvs*
+
+# ---- Python ----
+# Arquivos compilados
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+.Python
+
+# Logs e temporários
+*.log
+*.pid
+*.seed
+*.bak
+*.swp
+
+# Configurações locais e cache
+*.sqlite3
+*.db
+.DS_Store
+
+# Dependências e pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs e ferramentas
+.vscode/
+.idea/
+*.iml
