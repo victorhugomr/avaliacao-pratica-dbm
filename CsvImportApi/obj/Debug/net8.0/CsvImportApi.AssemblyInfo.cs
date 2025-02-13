@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsvImportApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afe282784e8c230d931539cff023216cbbf84a0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49629d5d5536e0f7b9438ea00cd7f50189192ce0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsvImportApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsvImportApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
