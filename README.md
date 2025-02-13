@@ -10,14 +10,17 @@ A aplicação em C# importa dados de um arquivo CSV para um banco de dados SQL S
 Tabela de Conteúdos
 =================
 <!--ts-->
-   * [Sobre](#descrição-do-projeto)
-   * [Tabela de Conteúdos](#tabela-de-conteúdos)
-   * [Features](#features)
-   * Como usar
-      * [Pré-requisitos](#pré-requisitos)
-      * [Executando o Hub de Jogos](#pré-requisitos)
-   * [Tecnologias](#autor)
-   * [Autor](#autor)
+- [Prova Prática de Desenvolvimento IA 🖥️](#prova-prática-de-desenvolvimento-ia-️)
+  - [Descrição do Projeto](#descrição-do-projeto)
+- [Tabela de Conteúdos](#tabela-de-conteúdos)
+    - [Features](#features)
+    - [Pré-requisitos](#pré-requisitos)
+    - [Executando a API](#executando-a-api)
+- [Clone este repositório](#clone-este-repositório)
+- [segundo passo](#segundo-passo)
+    - [🛠 Tecnologias](#-tecnologias)
+    - [Autor](#autor)
+    - [TODO](#todo)
 <!--te-->
 
 <h4 align="center"> 
