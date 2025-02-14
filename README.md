@@ -24,7 +24,7 @@ Tabela de Conteúdos
 	✨  Prova Prática de Desenvolvimento IA  ✨
 </h4>
 
-### Features
+Features
 
 - [x] Função importar dados de um .csv
 - [x] Função expotar para um database SQL Server
@@ -34,12 +34,12 @@ Tabela de Conteúdos
 - [x] Função processar informações
 - [x] Função exibir os dados categorizados
 
-### Pré-requisitos
+Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [VS Code](https://code.visualstudio.com/download), [C# para VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) e [SDK 8.0.406](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 
-### Tutorial
+Tutorial
 
 ### Clonar este repositório
 
@@ -47,51 +47,43 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone <https://github.com/victorhugomr/avaliacao-pratica-dbm.git>
 ```
 
-# Passos para executar a API em C# 
+### Passos para executar a API em C# 
 
-# Instalar o SDK do .NET 8 (SDK 8.0.406)
-
+### Instalar o SDK do .NET 8 (SDK 8.0.406)
 [Download .NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-# Restaurar Dependências
-
+### Restaurar Dependências
 ```bash
 $ dotnet restore
 ```
 
-# Remover a pasta Migrations e aplicar migrações do banco de dados (caso necessário)
-
+### Remover a pasta Migrations e aplicar migrações do banco de dados (caso necessário)
 ```bash
 $ dotnet ef migrations add InitialCreate
 $ dotnet ef database update
 ```
 
-# Build
-
+### Build
 ```bash
 $ dotnet build
 ```
 
-# Executar a API
-
+### Executar a API
 ```bash
 $ dotnet run
 ```
 
-# Passos para executar o cliente em Python
+### Passos para executar o cliente em Python
 
-# Instalar o Python 3 (Python 3.13.2)
-
+### Instalar o Python 3 (Python 3.13.2)
 [Download Python 3](https://www.python.org/downloads/)
 
-# Instalar os requisitos
-
+### Instalar os requisitos
 ```bash
 $ pip install -r requirements.txt
 ```
 
-# Executar o cliente
-
+### Executar o cliente
 ```bash
 $ python main.py
 ```
