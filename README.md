@@ -16,7 +16,7 @@ Tabela de Conteúdos
    * Como usar
       * [Pré-requisitos](#pré-requisitos)
       * [Passos para executar a API em C#](#passos)
-      * [Passos para executar o cliente em Python](#passos2)
+      * [Passos para executar o cliente em Python](#passos)
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
 <!--te-->
@@ -25,7 +25,7 @@ Tabela de Conteúdos
 	✨  Prova Prática de Desenvolvimento IA  ✨
 </h4>
 
-Features
+### Features
 
 - [x] Função importar dados de um .csv
 - [x] Função expotar para um database SQL Server
