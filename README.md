@@ -17,7 +17,7 @@ A aplicação em C# importa dados de um arquivo CSV para um banco de dados SQL S
       * [Pré-requisitos](#pré-requisitos)
       * [Passos para executar a API](#passos-para-executar-a-api)
       * [Passos para executar o cliente](#passos-para-executar-o-cliente)
-   * [Exemplo de chamadas e respostas da API](#exemplo)
+   * [Exemplo de chamadas e respostas da API](#exemplo-de-chamadas-e-respostas-da-api)
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
 <!--te-->
@@ -92,6 +92,33 @@ $ pip install -r requirements.txt
 #### Executar o cliente
 ```bash
 $ python main.py
+```
+
+
+## Exemplo de chamadas e respostas da API
+
+### Executando um POST em /api/csv/upload, passando como form-data um arquivo .csv
+
+#### fileCSV.csv
+```bash
+Id,Nome,Idade,Cidade,Profissao
+1,Ana Silva,29,São Paulo,Engenheira
+2,Bruno Souza,35,Rio de Janeiro,Professor
+3,Carla Mendes,42,Belo Horizonte,Médica
+4,Daniel Santos,27,Curitiba,Desenvolvedor
+5,Elisa Ramos,31,Fortaleza,Advogada
+6,Felipe Costa,40,Porto Alegre,Administrador
+7,Gustavo Lima,33,Recife,Designer
+8,Helena Martins,28,Salvador,Psicóloga
+9,Ivan Rocha,37,Florianópolis,Engenheiro
+10,Juliana Alves,26,Brasília,Jornalista
+```
+
+#### Resposta
+```bash
+{
+    "message": "Importação concluída com sucesso!"
+}
 ```
 
 
