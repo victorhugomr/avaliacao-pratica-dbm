@@ -95,7 +95,7 @@ $ python main.py
 ```
 
 
-## Tecnologias 🛠
+## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
