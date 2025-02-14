@@ -17,7 +17,7 @@ Tabela de Conteúdos
       * [Pré-requisitos](#pré-requisitos)
       * [Passos para executar a API em C#](#passos)
       * [Passos para executar o cliente em Python](#passos2)
-   * [Tecnologias](#Tecnologias-🛠)
+   * [Tecnologias](#tecnologias)
    * [Autor](#autor)
 <!--te-->
 
