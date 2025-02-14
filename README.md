@@ -15,8 +15,9 @@ Tabela de Conteúdos
    * [Features](#features)
    * Como usar
       * [Pré-requisitos](#pré-requisitos)
-      * [Executando o Hub de Jogos](#pré-requisitos)
-   * [Tecnologias](#autor)
+      * [Passos para executar a API em C#](#passos)
+      * [Passos para executar o cliente em Python](#passos2)
+   * [Tecnologias](#tecnologias)
    * [Autor](#autor)
 <!--te-->
 
@@ -41,49 +42,49 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 # Tutorial
 
-### Clonar este repositório
+# Clonar este repositório
 
 ```bash
 $ git clone <https://github.com/victorhugomr/avaliacao-pratica-dbm.git>
 ```
 
-### Passos para executar a API em C# 
+### Passos para executar a API em C#
 
-### Instalar o SDK do .NET 8 (SDK 8.0.406)
+# Instalar o SDK do .NET 8 (SDK 8.0.406)
 [Download .NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-### Restaurar Dependências
+# Restaurar Dependências
 ```bash
 $ dotnet restore
 ```
 
-### Remover a pasta Migrations e aplicar migrações do banco de dados (caso necessário)
+# Remover a pasta Migrations e aplicar migrações do banco de dados (caso necessário)
 ```bash
 $ dotnet ef migrations add InitialCreate
 $ dotnet ef database update
 ```
 
-### Build
+# Build
 ```bash
 $ dotnet build
 ```
 
-### Executar a API
+# Executar a API
 ```bash
 $ dotnet run
 ```
 
 ### Passos para executar o cliente em Python
 
-### Instalar o Python 3 (Python 3.13.2)
+# Instalar o Python 3 (Python 3.13.2)
 [Download Python 3](https://www.python.org/downloads/)
 
-### Instalar os requisitos
+# Instalar os requisitos
 ```bash
 $ pip install -r requirements.txt
 ```
 
-### Executar o cliente
+# Executar o cliente
 ```bash
 $ python main.py
 ```
