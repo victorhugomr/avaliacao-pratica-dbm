@@ -13,7 +13,7 @@ Tabela de Conteúdos
    * [Sobre](#descrição-do-projeto)
    * [Objetivo do projeto](#objetivo-do-projeto)
    * [Features](#features)
-   * [Como usar](#tutorial)
+   * [Como usar](#como-usar)
       * [Pré-requisitos](#pré-requisitos)
       * [Passos para executar a API em C#](#passos)
       * [Passos para executar o cliente em Python](#passos)
