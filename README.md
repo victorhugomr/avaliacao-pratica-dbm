@@ -11,12 +11,13 @@ Tabela de Conteúdos
 =================
 <!--ts-->
    * [Sobre](#descrição-do-projeto)
-   * [Tabela de Conteúdos](#tabela-de-conteúdos)
+   * [Objetivo do projeto](#objetivo-do-projeto)
    * [Features](#features)
-   * Como usar
+   * [Como usar](#tutorial)
       * [Pré-requisitos](#pré-requisitos)
       * [Passos para executar a API em C#](#passos)
       * [Passos para executar o cliente em Python](#passos)
+   * [Exemplo de chamadas e respostas da API](#exemplo)
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
 <!--te-->
@@ -25,7 +26,11 @@ Tabela de Conteúdos
 	✨  Prova Prática de Desenvolvimento IA  ✨
 </h4>
 
-### Features
+## Objetivo do projeto
+
+O candidato deve desenvolver um sistema em C# que importe dados de um arquivo CSV para um banco de dados SQL Server e forneça um endpoint para consulta desses dados em formato JSON. Em seguida, deve desenvolver um segundo sistema em Python que consuma essa API, processe as informações e exiba os dados de forma categorizada ao usuário.
+
+## Features
 
 - [x] Função importar dados de um .csv
 - [x] Função expotar para um database SQL Server
@@ -35,12 +40,12 @@ Tabela de Conteúdos
 - [x] Função processar informações
 - [x] Função exibir os dados categorizados
 
-### Pré-requisitos
+## Como usar
+
+## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [VS Code](https://code.visualstudio.com/download), [C# para VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) e [SDK 8.0.406](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
-
-### Tutorial
 
 # Clonar este repositório
 
@@ -48,7 +53,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone <https://github.com/victorhugomr/avaliacao-pratica-dbm.git>
 ```
 
-### Passos para executar a API em C#
+## Passos para executar a API em C#
 
 # Instalar o SDK do .NET 8 (SDK 8.0.406)
 [Download .NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
@@ -74,7 +79,7 @@ $ dotnet build
 $ dotnet run
 ```
 
-### Passos para executar o cliente em Python
+## Passos para executar o cliente em Python
 
 # Instalar o Python 3 (Python 3.13.2)
 [Download Python 3](https://www.python.org/downloads/)
@@ -90,7 +95,7 @@ $ python main.py
 ```
 
 
-### Tecnologias 🛠
+## Tecnologias 🛠
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -98,7 +103,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Python 3](https://www.python.org/)
 - 
 
-### Autor
+## Autor
 ---
 
 <a href="https://github.com/victorhugomr">
