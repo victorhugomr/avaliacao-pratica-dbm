@@ -41,7 +41,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ### Tutorial
 
-# Clonar este repositório
+### Clonar este repositório
 
 ```bash
 $ git clone <https://github.com/victorhugomr/avaliacao-pratica-dbm.git>
