@@ -114,11 +114,36 @@ Id,Nome,Idade,Cidade,Profissao
 10,Juliana Alves,26,Brasília,Jornalista
 ```
 
-#### Resposta
+#### Resposta do POST
 ```bash
 {
     "message": "Importação concluída com sucesso!"
 }
+```
+
+### Executando um GET em /api/records/1
+
+#### Resposta do GET
+```bash
+{
+    "id": 1,
+    "nome": "Ana Silva",
+    "idade": 29,
+    "cidade": "São Paulo",
+    "profissao": "Engenheira"
+}
+```
+
+### Consumindo a API
+
+#### Resposta do cliente
+```bash
+Registro Consultado:
+ID: 1
+Nome: Ana Silva      
+Idade: 29 (Jovem)    
+Cidade: São Paulo    
+Profissão: Engenheira
 ```
 
 
