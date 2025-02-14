@@ -42,6 +42,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ### Tutorial
 
 # Clonar este repositório
+
 ```bash
 $ git clone <https://github.com/victorhugomr/avaliacao-pratica-dbm.git>
 ```
@@ -49,25 +50,30 @@ $ git clone <https://github.com/victorhugomr/avaliacao-pratica-dbm.git>
 # Passos para executar a API em C# 
 
 # Instalar o SDK do .NET 8 (SDK 8.0.406)
+
 [Download .NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 # Restaurar Dependências
+
 ```bash
 $ dotnet restore
 ```
 
 # Remover a pasta Migrations e aplicar migrações do banco de dados (caso necessário)
+
 ```bash
 $ dotnet ef migrations add InitialCreate
 $ dotnet ef database update
 ```
 
 # Build
+
 ```bash
 $ dotnet build
 ```
 
 # Executar a API
+
 ```bash
 $ dotnet run
 ```
@@ -75,14 +81,17 @@ $ dotnet run
 # Passos para executar o cliente em Python
 
 # Instalar o Python 3 (Python 3.13.2)
+
 [Download Python 3](https://www.python.org/downloads/)
 
 # Instalar os requisitos
+
 ```bash
 $ pip install -r requirements.txt
 ```
 
 # Executar o cliente
+
 ```bash
 $ python main.py
 ```
