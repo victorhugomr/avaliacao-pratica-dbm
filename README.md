@@ -45,7 +45,7 @@ O candidato deve desenvolver um sistema em C# que importe dados de um arquivo CS
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[VS Code](https://code.visualstudio.com/download), [C# para VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) e [SDK 8.0.406](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+[VS Code](https://code.visualstudio.com/download).
 
 #### Clonar este repositório
 
