@@ -3,7 +3,7 @@
 ## Descrição do Projeto
 Prova prática de desenvolvimento IA realizada pela dbm - Contact Center como teste técnico para vaga de Desenvolvedor Júnior.
 
-<img src="https://img.shields.io/static/v1?label=csharp&message=Python&color=7159c1&style=for-the-badge&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=csharp&message=Python&color=f0e000&style=for-the-badge&logo=ghost"/>
 
 A aplicação em C# importa dados de um arquivo CSV para um banco de dados SQL Server e fornece um endpoint para consulta desses dados em formato JSON. A aplicação em Python consome a primeira API, processa as informações e exibe os dados de forma categorizada ao usuário.
 
@@ -152,8 +152,12 @@ Profissão: Engenheira
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [.NET 8.0](https://dotnet.microsoft.com/en-us/)
+- [Microsoft Entity Framework](https://learn.microsoft.com/pt-br/ef/)
+- [CsvHelper](https://joshclose.github.io/CsvHelper/)
+- [SQL Server](https://www.microsoft.com/pt-br/sql-server)
+- [Microsoft SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+- [Postman](https://www.postman.com/)
 - [Python 3](https://www.python.org/)
-- 
 
 ## Autor
 ---
