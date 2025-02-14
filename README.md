@@ -53,7 +53,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone <https://github.com/victorhugomr/avaliacao-pratica-dbm.git>
 ```
 
-### Passos para executar a API em C#
+### Passos para executar a API
 
 #### Instalar o SDK do .NET 8 (SDK 8.0.406)
 [Download .NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
@@ -79,7 +79,7 @@ $ dotnet build
 $ dotnet run
 ```
 
-### Passos para executar o cliente em Python
+### Passos para executar o cliente
 
 #### Instalar o Python 3 (Python 3.13.2)
 [Download Python 3](https://www.python.org/downloads/)
