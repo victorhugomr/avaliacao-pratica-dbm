@@ -70,6 +70,3 @@ pip-delete-this-directory.txt
 .vscode/
 .idea/
 *.iml
-
-# Arquivos de solução
-avaliacao-pratica-dbm.sln
