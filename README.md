@@ -10,17 +10,14 @@ A aplicação em C# importa dados de um arquivo CSV para um banco de dados SQL S
 Tabela de Conteúdos
 =================
 <!--ts-->
-- [Prova Prática de Desenvolvimento IA 🖥️](#prova-prática-de-desenvolvimento-ia-️)
-  - [Descrição do Projeto](#descrição-do-projeto)
-- [Tabela de Conteúdos](#tabela-de-conteúdos)
-    - [Features](#features)
-    - [Pré-requisitos](#pré-requisitos)
-    - [Executando a API](#executando-a-api)
-- [Clone este repositório](#clone-este-repositório)
-- [segundo passo](#segundo-passo)
-    - [🛠 Tecnologias](#-tecnologias)
-    - [Autor](#autor)
-    - [TODO](#todo)
+   * [Sobre](#descrição-do-projeto)
+   * [Tabela de Conteúdos](#tabela-de-conteúdos)
+   * [Features](#features)
+   * Como usar
+      * [Pré-requisitos](#pré-requisitos)
+      * [Executando o Hub de Jogos](#pré-requisitos)
+   * [Tecnologias](#autor)
+   * [Autor](#autor)
 <!--te-->
 
 <h4 align="center"> 
@@ -42,23 +39,61 @@ Tabela de Conteúdos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [VS Code](https://code.visualstudio.com/download), [C# para VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) e [SDK 8.0.406](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 
-### Executando a API
+### Tutorial
 
-# Clone este repositório
+# Clonar este repositório
 ```bash
-$ git clone <https://github.com/victorhugomr/t>
+$ git clone <https://github.com/victorhugomr/avaliacao-pratica-dbm.git>
 ```
-# segundo passo
+
+## Passos para executar a API em C# 
+
+# Instalar o SDK do .NET 8 (SDK 8.0.406)
+[Download .NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+
+# Restaurar Dependências
 ```bash
-$ comando
+$ dotnet restore
 ```
+
+# Remover a pasta Migrations e aplicar migrações do banco de dados (caso necessário)
+```bash
+$ dotnet ef migrations add InitialCreate
+$ dotnet ef database update
+```
+
+# Build
+```bash
+$ dotnet build
+```
+
+# Executar a API
+```bash
+$ dotnet run
+```
+
+## Passos para executar o cliente em Python
+
+# Instalar o Python 3 (Python 3.13.2)
+[Download Python 3](https://www.python.org/downloads/)
+
+# Instalar os requisitos
+```bash
+$ pip install -r requirements.txt
+```
+
+# Executar o cliente
+```bash
+$ python main.py
+```
+
 
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [.NET 8.0](https://dotnet.microsoft.com/en-us/)
-- 
+- [Python 3](https://www.python.org/)
 - 
 
 ### Autor
@@ -70,9 +105,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Victor Hugo</b></sub></a> <a href="https://github.com/victorhugomr">😎💻</a>
 
 Feito por Victor Hugo 👋🏽
-
-### TODO
-passos para rodar o consumer
-ter o python instalado na máquina
-rodar um pip install -r requirements.txt
-rodar python main.py
